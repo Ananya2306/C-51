@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box; 
+}
+header{
+    width: 100%;
+    height:20vh;
+    background-image: linear-gradient(to top,#fff 60%,#c3f5ff 40%) ;
+}
+.navSec{
+    width: 100%;
+    height:20vh;
+    background-image: linear-gradient(to top,#fff 80%,#c3f5ff 20%) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav {
+    width: 60%;
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+}/*
+nav a:first-child{
+    color: rgb(111, 0, 255);
+}*/
+
+
+.logo{
+    width: 40%;
+    background-image: linear-gradient(#8d98e3 40%,#854fed 60%); 
+    padding-left: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo h1{
+    font-family: 'Langar', cursive;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: move 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes move {
+    from{
+       padding-left :0px;
+    }
+    to{
+        padding-left: 300px;
+    }
+}
+
+h4{
+    color: white;
+    font-size: 30px;
+}
+.y1{
+    color: turquoise;
+    font-size: 24px;
+}
+.y2{
+    color: rgb(236, 33, 33);
+    font-size: 24px;
+}
+.y3{
+    color: rgb(33, 230, 33);
+    font-size: 24px;
+}
+.y4{
+    color: rgb(255, 251, 4);
+    font-size: 24px;
+}
+.y5{
+    color: rgb(255, 189, 7);
+    font-size: 24px;
+}
+.y6{
+    color: rgb(230, 33, 171);
+    font-size: 24px;
+}
+.y7{
+    color: rgb(24, 137, 243);
+    font-size: 24px;
+}
+.y8{
+    color: rgb(163, 16, 248);
+    font-size: 24px;
+}
+.y9{
+    color: rgb(33, 230, 115);
+    font-size: 24px;
+}
+.y10{
+    color: rgb(252, 0, 76);
+    font-size: 24px;
+}
+.cer{
+    color: violet;
+    font-size: 24px;
+}
+.whjr{
+    color: crimson;
+    font-size: 24px;
+}
